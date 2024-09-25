@@ -30,7 +30,7 @@ const appMenuItems = <MenuItem>[
   MenuItem(
     title: 'Botones',
     subtitle: 'Varios botones',
-    link: '/button',
+    link: '/buttons',
     icon: Icons.smart_button_outlined,
   ),
 ];
