@@ -1,8 +1,11 @@
 import 'package:a01_widgets/config/theme/menu/menu_items.dart';
+import 'package:a01_widgets/presentation/screens/cards/cards_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 class HomeScreen extends StatelessWidget {
+  static const String name = 'home_screen';
+
   const HomeScreen({super.key});
 
   @override
@@ -11,8 +14,8 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('widgets practice'),
       ),
-      drawer: Drawer(),
-      body: _HomeView(),
+      drawer: const Drawer(),
+      body: const _HomeView(),
     );
   }
 }
@@ -47,13 +50,14 @@ class _CustomListTile extends StatelessWidget {
         menuItem.icon,
         color: colors.primary,
       ),
-      trailing: Icon(
+      trailing: const Icon(
         Icons.arrow_forward_ios_outlined,
       ),
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       onTap: () {
         context.push(menuItem.link);
+        //context.pushNamed(CardsScreen.name);
       },
     );
   }
