@@ -1,5 +1,5 @@
-import 'package:a01_widgets/config/theme/menu/menu_items.dart';
-import 'package:a01_widgets/presentation/screens/cards/cards_screen.dart';
+import 'package:a01_widgets/app_ui_global/drawer/drawer_global.dart';
+import 'package:a01_widgets/config/menu/menu_items.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('widgets practice'),
       ),
-      drawer: const Drawer(),
+      drawer: const DrawerGlobal(),
       body: const _HomeView(),
     );
   }
