@@ -42,4 +42,14 @@ const appMenuItems = <MenuItem>[
       subtitle: 'Stateful widget',
       link: '/animated',
       icon: Icons.animation_outlined),
+  MenuItem(
+      title: 'UI controls',
+      subtitle: 'Controles de interfaz',
+      link: '/ui-controls',
+      icon: Icons.control_camera_outlined),
+  MenuItem(
+      title: 'Intro a la app',
+      subtitle: 'Intruductorio',
+      link: '/tutorial',
+      icon: Icons.accessible),
 ];
