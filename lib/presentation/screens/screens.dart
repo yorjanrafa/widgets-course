@@ -1,3 +1,4 @@
+export 'package:a01_widgets/presentation/screens/app_tutorial_with_ball.dart';
 export 'package:a01_widgets/presentation/screens/animated/animated_screen.dart';
 export 'package:a01_widgets/presentation/screens/app_tutorial_screen.dart';
 export 'package:a01_widgets/presentation/screens/buttons/buttons_screen.dart';
